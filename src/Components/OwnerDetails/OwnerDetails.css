@@ -5,8 +5,16 @@
     flex-direction: row;
     align-items: center;
     color: white;
-    padding: 1rem 5rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
 }
+@media (max-width:800px) {
+    .owner-details-container{
+        flex-direction: column;
+    }
+}
+
 .owner-details-container .owner-image{
     margin-right: 1rem;
 }
@@ -30,4 +38,5 @@
 hr{
     width: 50%;
     margin: 0 auto;
+    margin-top: 1rem;
 }
