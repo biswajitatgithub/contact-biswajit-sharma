@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.owner-details-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    padding: 1rem 5rem;
+}
+.owner-details-container .owner-image{
+    margin-right: 1rem;
+}
+.owner-details-container .owner-image img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.owner-info .name{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8rem;
+}
+.owner-info .contact i, .owner-info .description i{
+    padding-right: .5rem;
+}
+.owner-info .contact{
+    margin-bottom: .3rem;
+}
+
+hr{
+    width: 50%;
+    margin: 0 auto;
+}
