@@ -11,7 +11,7 @@ const ContactForm = () => {
       </div>
       <form onSubmit={handleSubmit}>
         <div className="input">
-          <span>You email address</span>
+          <span>Your email address</span>
           <input id="email" type="email" name="email" />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
         </div>
