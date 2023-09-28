@@ -42,7 +42,7 @@ const ContactForm = () => {
   if (state.submitting) {
     mainData = (
       <div className="response">
-        <div className="title">Sending...</div>
+        <div className="title">Sending your query...</div>
       </div>
     );
   } else mainData = state.succeeded ? successData : form;
