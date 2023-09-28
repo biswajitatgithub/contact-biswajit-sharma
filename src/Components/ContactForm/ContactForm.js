@@ -33,10 +33,19 @@ const ContactForm = () => {
   const successData = (
     <div className="response">
       <div className="title">Query Sent!</div>
-      <div className="description">Thank you for reaching out, you will be responded within 12hours</div>
+      <div className="description">
+        Thank you for reaching out, you will be responded within 12hours
+      </div>
     </div>
   );
-  let mainData = state.succeeded ? successData : form;
+  let mainData = null;
+  if (state.submitting) {
+    mainData = (
+      <div className="response">
+        <div className="title">Sending...</div>
+      </div>
+    );
+  } else mainData = state.succeeded ? successData : form;
 
   return (
     <div className="form-container">
