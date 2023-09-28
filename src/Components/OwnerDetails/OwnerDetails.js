@@ -1,6 +1,5 @@
 import React from "react";
 import "./OwnerDetails.css";
-import logo from '../../assets/img/Profile.png';
 import giflogo from '../../assets/img/corporate_pp.gif';
 
 const OwnerDetails = (props) => {
