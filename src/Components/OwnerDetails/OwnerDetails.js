@@ -1,13 +1,14 @@
 import React from "react";
 import "./OwnerDetails.css";
 import logo from '../../assets/img/Profile.png';
+import giflogo from '../../assets/img/corporate_pp.gif';
 
 const OwnerDetails = (props) => {
   return (
     <React.Fragment>
     <div className="owner-details-container">
       <div className="owner-image">
-        <img src={logo} alt={props.name} />
+        <img src={giflogo} alt={props.name} />
       </div>
       <div className="owner-info">
         <p className="name">{props.name}</p>
